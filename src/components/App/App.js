@@ -9,7 +9,7 @@ class App extends React.Component {
       <div className="App">
         <h1>Palindrome Checker</h1>
         <InputBar />
-    </div>
+      </div>
     );
   }
 }

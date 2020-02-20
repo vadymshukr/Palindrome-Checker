@@ -1,6 +1,7 @@
 .main{
     background-color: aquamarine;
-    height: 500px;
+    height: 100%;
+    padding-top: 100px;
 }
 
 .form__input{
@@ -14,6 +15,7 @@
     border: none;
     text-align: center;
     color: white;
+    color: black;
     font-size: 32px;
 }
 

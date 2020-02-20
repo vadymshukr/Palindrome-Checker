@@ -6,9 +6,9 @@ const PalindromeMessage = props => {
         <div>
             {props.palindromeCheck
             ?
-            <p>Congrats! {props.content} is Palindrome!</p>
+            <p className="success message">Congrats! {props.content} is Palindrome!</p>
             :
-            <p>Sorry! {props.content} is not Palindrome!</p>
+            <p className="fail message">Sorry! {props.content} is not Palindrome!</p>
         }
         </div>
     )
