@@ -1,9 +1,19 @@
 .main{
     background-color: aquamarine;
-    height: 100%;
-    padding-top: 100px;
+    height: 70%;
+    padding-top: 3%;
 }
 
+h1 {
+    height: 5%;
+}
+.form{
+    
+}
+
+.form-header{
+    margin-bottom: 40px;
+}
 .form__input{
     margin-top: 150px;
     margin: 0 auto;
@@ -28,6 +38,7 @@
 }
 
 .button{
+    font-family: 'Roboto Slab', serif;
     color: white;
     font-size: 24px;
     border: none;

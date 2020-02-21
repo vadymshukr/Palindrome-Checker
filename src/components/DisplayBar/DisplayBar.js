@@ -18,7 +18,6 @@ class DisplayBar extends React.Component{
     render(){
         return (
             <div>
-                <p>{this.props.content}</p>
                 {this.props.displayContent &&
                 <PalindromeMessage palindromeCheck={this.props.palindromeCheck} content={this.props.content}/>
                 }

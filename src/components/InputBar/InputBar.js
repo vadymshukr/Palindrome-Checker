@@ -44,6 +44,7 @@ class InputBar extends React.Component{
     render(){
         return (
             <div className="main">
+                <h2 className="form-header">Enter the word</h2>
                 <form className="form" action="" onSubmit={this.handleSubmit}>
                     <input className="form__input" type="text" name="content" value={this.state.value} onChange={this.handleChange}/>
                     <input className="form__submit button" type="submit" value="Submit"/>
